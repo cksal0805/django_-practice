@@ -106,14 +106,17 @@ django-admin startproject mysite .
 성공적으로 만들어 졌다면 아래와 같은 파이썬 파일이 생길 겁니다.
 저는 back폴더 안에서 위의 설치들을 모두 진행했습니다.
 
-📂 back /
-└── 📄 manage.py // Django 프로젝트와 다양한 방법으로 상호작용 하는 커맨드라인의 유틸리티
-└── 📂 mysite /
-_______└── 📄 __ init __.py
-_______└── 📄 settings.py // 웹사이트 설정이 있는 파일
-_______└── 📄 asgi.py
-_______└── 📄 wsgi.py
-_______└── 📄u rls.py // urlresolver가 사용하는 파일
+```bash
+.
+├── 📂 back
+├── 📄 manage.py            # Django 프로젝트와 다양한 방법으로 상호작용 하는 커맨드라인의 유틸리티
+│   ├── 📄 __ init __.py
+│   ├── 📄 settings.py      # 웹사이트 설정이 있는 파일
+│   ├── 📄 asgi.py
+│   ├── 📄 wsgi.py
+│   └── 📄 urls.py           # urlresolver가 사용하는 파일
+└── ...
+```
 
 **👀 asgi, wsgi 은 뭘까?**
 
